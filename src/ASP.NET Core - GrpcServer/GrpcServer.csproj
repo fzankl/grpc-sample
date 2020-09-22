@@ -12,8 +12,4 @@
   <ItemGroup>
     <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Protos\" />
-  </ItemGroup>
 </Project>

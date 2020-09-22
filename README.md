@@ -13,12 +13,40 @@ Examples consider all available communication patters of gRPC:
 
 Current state of implementation: 
 
-* ASP.NET Core Server (unary RPC available)
-* ASP.NET Core Client (unary RPC available)
-* Go Client (in progress)
-* Node Client (in progress)
-* Python Client (in progress)
+- ASP.NET Core Server
+  - [x] Unary RPC
+  - [x] Server streaming RPC
+  - [x] Client streaming RPC
+  - [x] Bidirectional streaming 
+- ASP.NET Core Client
+  - [x] Unary RPC
+  - [x] Server streaming RPC
+  - [x] Client streaming RPC
+  - [x] Bidirectional streaming 
+- Go Client
+  - [ ] Unary RPC
+  - [ ] Server streaming RPC
+  - [ ] Client streaming RPC
+  - [ ] Bidirectional streaming 
+- Node Client
+  - [ ] Unary RPC
+  - [ ] Server streaming RPC
+  - [ ] Client streaming RPC
+  - [ ] Bidirectional streaming 
+- Python Client (in progress)
+  - [ ] Unary RPC
+  - [ ] Server streaming RPC
+  - [ ] Client streaming RPC
+  - [ ] Bidirectional streaming 
 
 ## How to run this sample
 
-...
+To run this sample you have to start the ASP.NET Core Server project first. Navigate to `src\ASP.NET Core - GrpcServer` inside the repository and run following command (Requires .NET Core Runtime installed):
+
+```bash
+dotnet run
+```
+
+After that you can start the client you prefer, e.g. the .NET Core gRPC client application as shown in following figure:
+
+![Output from .NET Core client application](https://user-images.githubusercontent.com/44210522/93888984-f6b6aa80-fce8-11ea-83fd-7a48e95dd4ef.jpg)
