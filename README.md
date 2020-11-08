@@ -1,5 +1,5 @@
 # gRPC Sample
-**Example how to work with gRPC using .NET Core/ASP.NET Core and Paython.**
+**Example how to work with gRPC using .NET Core/ASP.NET Core and Python.**
 
 -------------------------------------
 
