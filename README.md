@@ -1,9 +1,9 @@
 # gRPC Sample
-**Example how to work with gRPC using different programming languages.**
+**Example how to work with gRPC using .NET Core/ASP.NET Core and Paython.**
 
 -------------------------------------
 
-This example shows how to work with gRPC using various programming language. gRPC Server is provided by an ASP.NET Core backend. Each client shows then how to connect and interact with this server.
+This example shows how to work with gRPC using .NET and Python. gRPC Server is provided by an ASP.NET Core backend. Each client shows then how to connect and interact with this server.
 
 Examples consider all available communication patters of gRPC:
 * Unary RPCs
@@ -23,21 +23,13 @@ Current state of implementation:
   - [x] Server streaming RPC
   - [x] Client streaming RPC
   - [x] Bidirectional streaming 
-- Go Client
-  - [ ] Unary RPC
-  - [ ] Server streaming RPC
-  - [ ] Client streaming RPC
-  - [ ] Bidirectional streaming 
-- Node Client
-  - [ ] Unary RPC
-  - [ ] Server streaming RPC
-  - [ ] Client streaming RPC
-  - [ ] Bidirectional streaming 
 - Python Client (in progress)
   - [ ] Unary RPC
   - [ ] Server streaming RPC
   - [ ] Client streaming RPC
   - [ ] Bidirectional streaming 
+  
+Further information: https://www.fzankl.de/en/blog/distributed-services-using-grpc-in-dotnet-and-python
 
 ## How to run this sample
 
