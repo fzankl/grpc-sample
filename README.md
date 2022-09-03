@@ -29,9 +29,7 @@ Current state of implementation:
   - [ ] Client streaming RPC
   - [ ] Bidirectional streaming 
   
-Further information: 
- * English: https://www.fzankl.de/en/blog/distributed-services-using-grpc-in-dotnet-and-python
- * German: https://www.fzankl.de/de/blog/verteilte-services-mit-grpc-in-dotnet-und-python
+Further information: https://www.fzankl.de/en/blog/distributed-services-using-grpc-in-dotnet-and-python
 
 ## How to run this sample
 
